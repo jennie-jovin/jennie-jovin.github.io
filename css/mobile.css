@@ -30,4 +30,12 @@
     width: 100%;
     display: block;
   }
+
+  .wedding-party {
+    height: 500px; /* or any value */
+    overflow-y: auto;
+    clear: both;
+    font-size: 150%;
+    font-size: 3em;
+  }
 }
