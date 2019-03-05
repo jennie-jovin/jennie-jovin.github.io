@@ -5,17 +5,16 @@
   header {
     background-size: 300% auto;
     height: 85%;
-    /* color: #DAA520; */
   }
 
   header h1{
     font-size: 2em;
-    padding: 5em 2em 0em 2em;
   }
 
-  header h1, header h3 {
-    opacity: 0.8;
-    /* color: #DAA520; */
+  .header {
+    width: 60%;
+    font-size:150%;
+    padding: 1em;
   }
 
   nav a {

@@ -12,21 +12,31 @@ header {
   background-size: 100% auto;
   height: 50%;
   text-align: center;
-  font-size: 2em;
   color: white;
+  padding-top: 1em;
 }
 
 header h1 {
   font-family: 'Great Vibes', cursive;
   letter-spacing: 10px;
-  font-size: 4em;
   margin-block-end: 0em;
   margin-block-start: 0em;
-  padding-top: 1em;
+}
+
+header h3 {
+  margin-block-end: 0em;
 }
 
 h3 {
   margin-block-start: 0em;
+}
+
+.header {
+  background-color: #DAA520;
+  margin: 1em auto;
+  opacity: 0.8;
+  width: 50%;
+  padding-top: 5px;
 }
 
 nav {
