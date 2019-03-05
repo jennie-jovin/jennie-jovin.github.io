@@ -36,19 +36,28 @@ nav {
   font-size: 2em;
   top: 0px;
   z-index: 1;
-  background: white;
+  background-color: #273f87;
 }
 
 nav, a {
   text-align: center;
   text-decoration: none;
-  color: #ee5c63;
+  /* color: #ee5c63; */
+  color: #DAA520;
   padding: 1.5rem;
-  /* color: #b22a49; */
 }
 
 .details .right, .details .left {
   height: 300px;
+}
+
+.text {
+  border: 2px solid #DAA520;
+  height: 100px;
+}
+
+.text h3 {
+  padding-top: 2em;
 }
 
 #church {
