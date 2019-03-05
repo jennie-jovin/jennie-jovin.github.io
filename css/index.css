@@ -47,6 +47,49 @@ nav, a {
   /* color: #b22a49; */
 }
 
+.details .right, .details .left {
+  height: 300px;
+}
+
+#church {
+  background: url('http://smchicago.org/sites/default/files/styles/galleryformatter_slide/public/field/image/Welcome-inside.png?itok=mBmiyD-e') center center no-repeat;
+  background-size: 140% auto;
+}
+
+#reception {
+  background: url('https://static1.squarespace.com/static/54b5a61ae4b0fee4b00e263a/59b2e6352994caee6bcf9b8b/59baf724bce1767624c3c4a4/1505425232598/patrick-haley-mansion-joliet-illinois.jpg') center center no-repeat;
+  background-size: 100% auto;
+}
+
+#hotel {
+  background: url('https://s-ec.bstatic.com/images/hotel/max1024x768/154/154683623.jpg') center center no-repeat;
+  background-size: 100% auto;
+}
+
+.wedding-party::after {
+  content: " ";
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+.wedding-party {
+  background: url('../pics/indian-elephant.png') center center no-repeat;
+}
+
+.wedding-party h3 {
+  text-align: center;
+}
+
+.wedding-party h6 {
+  font-size: 1em;
+}
+
+.wedding-party p {
+  font-size: 0.8em;
+}
+
+
 section {
   color: #273f87;
   font-size: 1.5em;
@@ -75,32 +118,9 @@ article {
   vertical-align: middle;
 }
 
-div img {
-  height: 200px;
-  margin: auto;
-/* width: 100%; */
-opacity: 0.8;
-}
-
 .wedding-party::after {
   content: " ";
   display: block; 
   height: 0; 
   clear: both;
-}
-
-.wedding-party {
-  background: url('../pics/indian-elephant.png') center center no-repeat;
-}
-
-.wedding-party h3 {
-  text-align: center;
-}
-
-.wedding-party h6 {
-  font-size: 1em;
-}
-
-.wedding-party p {
-  font-size: 0.8em;
 }
