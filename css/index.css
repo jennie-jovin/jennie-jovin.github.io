@@ -143,3 +143,20 @@ article {
   height: 0; 
   clear: both;
 }
+
+.traditions {
+  color: rgb(215, 45, 62);
+  text-align: center;
+  border: 35px solid transparent;
+  padding: 20px;
+  border-image: url('../pics/flower.png') 220 round; 
+}
+
+.traditions h1 {
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+
+.traditions h3 {
+  font-size: 1.5em;
+}
