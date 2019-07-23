@@ -2,7 +2,7 @@ $(document).ready(function(){
   const properties = [
     "url('pics/pic1.jpg') center center no-repeat",
     "url('pics/pic2.jpg') top 30% center no-repeat",
-    "url('pics/pic3.jpg') 25% top no-repeat",
+    "url('pics/pic3.jpg') top 20% center no-repeat",
     "url('pics/pic4.jpg') 25% no-repeat",
     "url('pics/pic5.jpg') top center no-repeat",
     "url('pics/pic6.jpg') top 25% center no-repeat",
